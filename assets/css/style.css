@@ -135,12 +135,12 @@ button {
 /* scroll bar */
 ::-webkit-scrollbar {
   width: .5rem;
-  /* background: hsl(0, 0%, 74%); (Original para darle una guia al scroll)*/
+
 }
 
 ::-webkit-scrollbar-thumb {
   background: var(--primary-color)
-  /* hsl(0, 0%, 17%); (Original) */
+
 }
 
 /* selection */
@@ -465,7 +465,7 @@ body.dark-mode {
   grid-column:  span 3;
 }
 
-/* MODAL PARA LOS DETALLES */
+/* MODAL FOR THE DETAILS */
 .btn__detail {
   position: absolute;
   top: 0;
@@ -762,7 +762,7 @@ body.dark-mode {
   cursor: pointer;
 }
 
-/* MODAL COMPRA */
+/* MODAL PURCHASE */
 
 .modal2 {
   display: none;
@@ -803,7 +803,7 @@ body.dark-mode {
   cursor: pointer;
 }
 
-/* MODAL NO HAY NADA EN EL CARRITO */
+/* MODAL THERE'S NOTHING IN THE CART */
 
 .modal3 {
   display: none;
@@ -887,7 +887,7 @@ body.dark-mode {
 }
 
 @media (min-width: 1024px) {
-  /* Aquí centramos las secciones, mediantes nuestras clases reutilizables */
+
   .section--title,
   .container {
     margin: 0 auto;
